@@ -1,0 +1,62 @@
+/* General styles */
+#quote-box{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid whitesmoke;
+  border-radius: 7px;
+  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+  align-items: center;
+  height: 33%;
+  width: 70%;
+  background-color:rgb(228, 240, 186);
+  flex-direction: column;
+  
+}
+#container{
+  height: 70%;
+  width:95%;
+  align-self: flex-start;
+  margin:auto;
+  overflow-y: auto;
+}
+#text {
+  align-self: flex-start;
+  font-size: 24px;
+  margin:0;
+  font-weight: bold;
+  
+}
+
+#author {
+  font-size: 100%;
+  float: right;
+  margin:0;
+  
+}
+p{
+  margin: 5px;
+}
+#new-quote{
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  
+}
+#btn{
+  margin: auto;
+  width:95%; 
+  display: flex;
+  flex-flow: row-reverse;
+}
+#new-quote{
+  padding:5px;
+  
+
+}
+#tweet-quote{
+  padding: 5px;
+
+}
